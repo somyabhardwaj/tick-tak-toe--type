@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.block {
+  flex: 0 0 100px;       /* exactly 100px including border */
+  height: 100px;
+  border: 2px solid;
+  cursor: pointer;
+  box-sizing: border-box; /* includes border in 100px */
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  margin: auto;
+}
